@@ -1,7 +1,0 @@
-hello again
-
-
-from tdmclient import ClientAsync
-client = ClientAsync()
-node = await client.wait_for_node()
-await node.lock()
